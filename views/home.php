@@ -20,7 +20,7 @@
             <h2 class="mb-4 text-xl font-semibold">Shorten your url:</h2>
             <form method="POST" action="">
                 <div class="flex">
-                    <input class="flex-1 border-2 <?php echo !empty($errors['url']) ? 'border-red-600' : 'border-blue-600'; ?> rounded-lg p-3" type="text" name="url">
+                    <input class="flex-1 border-2 <?php echo !empty($errors['url']) ? 'border-red-600' : 'border-blue-600'; ?> rounded-lg p-3" type="text" name="url" autocomplete="off">
                     <button class="ms-3 rounded-lg bg-blue-600 px-4 py-2 font-medium text-white hover:bg-blue-700">
                         Shorten
                     </button>

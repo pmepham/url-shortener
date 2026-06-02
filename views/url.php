@@ -25,6 +25,8 @@
                 onclick="copyLink()">
                 Copy Link
             </button>
+            <br>
+            <a class="text-blue-600 hover:text-blue-700" href="">Back</a>
         </section>
     </main>
 
